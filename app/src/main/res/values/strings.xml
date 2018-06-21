@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AndroidQuiz</string>
+    <string name="botaoLogin">Fazer Login</string>
+    <string name="edtEmail">E-MAIL</string>
+    <string name="edtSenha">SENHA</string>
+    <string name="abaixoLogin">Não tem cadastro? Clique Aqui!</string>
+    <string name="Login">Login</string>
 </resources>

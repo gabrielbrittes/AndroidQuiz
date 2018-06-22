@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/itExcluir"
+        app:showAsAction="never"
+        android:title="Excluir conta">
+    </item>
+
+    <item
+        android:id="@+id/itAlterar"
+        app:showAsAction="never"
+        android:title="Editar conta">
+    </item>
+
+    <item
+        android:id="@+id/itExit"
+        app:showAsAction="never"
+        android:title="Logoff">
+    </item>
+
+</menu>

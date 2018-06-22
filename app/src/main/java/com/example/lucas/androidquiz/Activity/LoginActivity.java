@@ -77,7 +77,7 @@ public class LoginActivity extends AppCompatActivity {
     public void irTelaInicial(){
         Intent intent = new Intent(LoginActivity.this, InicialActivity.class);
         startActivity(intent);
-        //finish();
+        finish();
     }
 
 }

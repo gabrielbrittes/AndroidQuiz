@@ -1,4 +1,7 @@
 <resources>
+    <string name="excluir">Excluir conta</string>
+    <string name="editar">Editar dados da conta</string>
+    <string name="exit">Logoff</string>
     <string name="app_name">AndroidQuiz</string>
     <string name="botaoLogin">Fazer Login</string>
     <string name="edtEmail">E-MAIL</string>

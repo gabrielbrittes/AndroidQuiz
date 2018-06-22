@@ -1,11 +1,15 @@
 <resources>
-    <string name="excluir">Excluir conta</string>
-    <string name="editar">Editar dados da conta</string>
-    <string name="exit">Logoff</string>
     <string name="app_name">AndroidQuiz</string>
     <string name="botaoLogin">Fazer Login</string>
     <string name="edtEmail">E-MAIL</string>
     <string name="edtSenha">SENHA</string>
     <string name="abaixoLogin">Não tem cadastro? Clique Aqui!</string>
     <string name="Login">Login</string>
+    <string name="excluir">Excluir conta</string>
+    <string name="editar">Editar dados da conta</string>
+    <string name="exit">Logoff</string>
+    <string name="Cadastro">CADASTRO</string>
+    <string name="btnCadastrar">Finalizar Cadastro</string>
+    <string name="nome">NOME</string>
+    <string name="senhaConfirme">Confirmar senha</string>
 </resources>

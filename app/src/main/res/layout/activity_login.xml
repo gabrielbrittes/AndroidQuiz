@@ -25,7 +25,7 @@
         android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberPassword"
+        android:inputType="textPassword"
         android:hint="@string/edtSenha"/>
 
 
@@ -37,12 +37,12 @@
 
 
     <TextView
+        android:id="@+id/irCadastro"
         android:layout_width="match_parent"
         android:gravity="center"
         android:layout_marginTop="10dp"
         android:layout_height="wrap_content"
         android:text="@string/abaixoLogin"
         android:textSize="15sp"/>
-
 
 </LinearLayout>

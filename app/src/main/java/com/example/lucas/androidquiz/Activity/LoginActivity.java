@@ -24,6 +24,8 @@ public class LoginActivity extends AppCompatActivity{
     private EditText edtEmail;
     private EditText edtSenha;
     private Usuario usuario;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +34,7 @@ public class LoginActivity extends AppCompatActivity{
         edtEmail = findViewById(R.id.edtEmail);
         edtSenha = findViewById(R.id.edtSenha);
         Button btnLogar = findViewById(R.id.btnLogar);
+        TextView edtIrCadastro = findViewById(R.id.irCadastro);
 
         btnLogar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,6 +49,13 @@ public class LoginActivity extends AppCompatActivity{
                 }else{
                     Toast.makeText(getApplicationContext(), "Os campos E-mail e Senha são obrigatórios!", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        edtIrCadastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                irTelaCadastro();
             }
         });
 
@@ -75,6 +85,12 @@ public class LoginActivity extends AppCompatActivity{
 
     public void irTelaInicial(){
         Intent intent = new Intent(LoginActivity.this, InicialActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+    public void irTelaCadastro(){
+        Intent intent = new Intent(LoginActivity.this, CadastroActivity.class);
         startActivity(intent);
         finish();
     }
